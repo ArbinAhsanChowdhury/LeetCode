@@ -2,12 +2,12 @@
 using namespace std;
 int main() {
     int flag=0;
-    int nums[] = {1,2,3,1};
+    int nums[] = {1,2,3};
     vector<int> test;
     for(int i: nums){
-        test.push_back(nums[i]);
+        test.push_back(i);
         for(int j: test){
-            if(nums[i] == test[j]){
+            if(i == j){
                 flag++;
             }
         }
@@ -18,5 +18,6 @@ int main() {
             flag=0;
         }
     }
+    cout << "false";
     return 0;
 }
