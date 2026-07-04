@@ -22,7 +22,7 @@ Here is a track record of the problems I have solved so far:
 
 | # | Title | Solution | Difficulty | Concept / Pattern |
 |---| ----- | -------- | ---------- | ----------------- |
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++]https://github.com/ArbinAhsanChowdhury/LeetCode/blob/main/problem_217.cpp | 🟢 Easy | Arrays & Hashing |
+| 217 | https://leetcode.com/problems/contains-duplicate/ | [C++]https://github.com/ArbinAhsanChowdhury/LeetCode/blob/main/problem_217.cpp | 🟢 Easy | Arrays & Hashing |
 | 242 | https://leetcode.com/problems/valid-anagram/description/ | [C++]https://github.com/ArbinAhsanChowdhury/LeetCode/blob/main/problem_242.cpp | 🟢 Easy | Arrays & Hashing |
 | ... | ... | ... | ... | ... |
 
