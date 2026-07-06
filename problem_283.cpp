@@ -1,20 +1,20 @@
-//this problem is not solve yet 
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
-    int nums[] = {0,1,0,3,12};
-    int s = sizeof(nums)/sizeof(nums[0]);
-    for(int i=0; i<s; ++i){
-        for(int j=0; j<s-i-1; ++j){
-            if(nums[j] == 0){
-                int temp = nums[j];
-                nums[j] = nums[j+1];
-                nums[j+1] = temp;
+        vector<int> nums = {0,1,0,3,12};
+        int flag = 0;
+        int s = sizeof(nums)/sizeof(nums[0]);
+        sort(nums.begin(),nums.end());
+        for(int i : nums){
+            if(i == 0){
+                flag++;
+            }else{
+                cout << i << " ";
             }
         }
-    }
-    for(int i : nums){
-        cout << i << " ";
-    }
+        for(int i=0; i<flag; ++i){
+            cout << "0 ";
+        }
+
     return 0;
 }
