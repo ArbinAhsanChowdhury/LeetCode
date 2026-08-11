@@ -1,6 +1,7 @@
-class Solution {
-public:
-    bool canConstruct(string ransomNote, string magazine) {
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+        string ransomNote = "A", string magazine = "B";
         unordered_map<char, int> magaHash;
         for(char c : magazine){
             magaHash[c]++;
@@ -13,4 +14,3 @@ public:
         }
         return true;
     }
-};
